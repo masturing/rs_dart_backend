@@ -1,3 +1,5 @@
+// ignore_for_file: lines_longer_than_80_chars
+
 import 'package:dart_frog/dart_frog.dart';
 import 'package:rs_dart_backend/core/core_system.dart';
 
@@ -14,6 +16,8 @@ Response onRequest(RequestContext context, String id) {
             'ref_type': 'cabang',
             'created_at': '2021-01-01 00:00:00',
             'flag': 'out',
+            'description':
+                'Beli bahan baku seperti batu, air, buzzer, dan lain sebagainya',
           },
         );
       case '2':
@@ -26,6 +30,8 @@ Response onRequest(RequestContext context, String id) {
             'ref_type': 'cabang',
             'created_at': '2021-02-01 00:00:00',
             'flag': 'in',
+            'description':
+                'Keuntungan dari menjual berbagai macam jenis buzzer yang ada',
           },
         );
 
@@ -39,6 +45,8 @@ Response onRequest(RequestContext context, String id) {
             'ref_type': 'cabang',
             'created_at': '2021-03-01 00:00:00',
             'flag': 'out',
+            'description':
+                'Beli bahan baku seperti batu, air, buzzer, dan lain sebagainya',
           },
         );
       default:
